@@ -1,0 +1,43 @@
+.logo {
+  width: 150px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #1e90ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo-text {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+}
+
+
+.MuiButton-root {
+  text-transform: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #2196f3;
+}
+
+.MuiButton-root:hover {
+  background-color: #0d47a1;
+}
+
+.Mui-selected {
+  font-weight: bold;
+}
